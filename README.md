@@ -13,15 +13,26 @@ npm install --save react-global-grid
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import { ThemeProvider } from 'styled-components'
+import { Grid, Column } from 'react-global-grid'
 
-import MyComponent from 'react-global-grid'
-import 'react-global-grid/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const theme = {
+  gridStyles: {
+    gridTemplateColumns: 'repeat(12, 1fr)',
+    gridGap: 20
   }
+}
+
+const App = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Grid>
+        <Column span='1 / 4'>column 1</Column>
+        <Column span='5 / -1'>column 2</Column>
+      </Grid>
+    </ThemeProvider>
+  )
 }
 ```
 
