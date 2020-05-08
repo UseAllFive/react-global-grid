@@ -6,8 +6,10 @@
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-global-grid": "file:..",
     "react-scripts": "file:../node_modules/react-scripts",
-    "react-global-grid": "file:.."
+    "rebass": "^4.0.7",
+    "styled-components": "^5.1.0"
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
