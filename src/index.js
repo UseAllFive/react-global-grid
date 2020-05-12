@@ -46,7 +46,10 @@ Column.propTypes = {
   children: PropTypes.any,
   sx: PropTypes.object,
   as: PropTypes.string,
-  span: PropTypes.string
+  span: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string)
+  ])
 }
 
 export { Column, Grid }
