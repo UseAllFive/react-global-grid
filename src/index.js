@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { Box } from 'rebass/styled-components'
 import { withTheme } from 'styled-components'
 
-const Grid = withTheme(({ theme, children, sx, as = 'div' }) => {
+const Grid = withTheme(({ className, theme, children, sx, as = 'div' }) => {
   return (
     <Box
+      className={className}
       as={as}
       sx={{
         px: 16,
@@ -25,12 +26,14 @@ const Grid = withTheme(({ theme, children, sx, as = 'div' }) => {
 Grid.propTypes = {
   children: PropTypes.any,
   sx: PropTypes.object,
-  as: PropTypes.string
+  as: PropTypes.string,
+  className: PropTypes.string
 }
 
-const Column = ({ children, span, sx, as = 'div' }) => {
+const Column = ({ className, children, span, sx, as = 'div' }) => {
   return (
     <Box
+      className={className}
       as={as}
       sx={{
         gridColumn: span,
@@ -49,7 +52,8 @@ Column.propTypes = {
   span: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.arrayOf(PropTypes.string)
-  ])
+  ]),
+  className: PropTypes.string
 }
 
 export { Column, Grid }
