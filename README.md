@@ -42,6 +42,10 @@ const App = () => {
 }
 ```
 
+## Further reading
+
+[Read more about it on Medium](https://medium.com/swlh/one-css-grid-to-rule-them-all-3e3386ad6155?source=friends_link&sk=521d01ba34820e8096c8075164dcee5f)
+
 ## License
 
 MIT © [UseAllFive](https://github.com/UseAllFive)
