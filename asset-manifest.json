@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-global-grid/static/css/main.37b88c31.chunk.css",
+    "main.js": "/react-global-grid/static/js/main.2e235a43.chunk.js",
+    "main.js.map": "/react-global-grid/static/js/main.2e235a43.chunk.js.map",
+    "runtime-main.js": "/react-global-grid/static/js/runtime-main.fc17ddf4.js",
+    "runtime-main.js.map": "/react-global-grid/static/js/runtime-main.fc17ddf4.js.map",
+    "static/js/2.62240578.chunk.js": "/react-global-grid/static/js/2.62240578.chunk.js",
+    "static/js/2.62240578.chunk.js.map": "/react-global-grid/static/js/2.62240578.chunk.js.map",
+    "index.html": "/react-global-grid/index.html",
+    "precache-manifest.3fe05233fa98b93c0955f7c393df9c02.js": "/react-global-grid/precache-manifest.3fe05233fa98b93c0955f7c393df9c02.js",
+    "service-worker.js": "/react-global-grid/service-worker.js",
+    "static/css/main.37b88c31.chunk.css.map": "/react-global-grid/static/css/main.37b88c31.chunk.css.map",
+    "static/js/2.62240578.chunk.js.LICENSE.txt": "/react-global-grid/static/js/2.62240578.chunk.js.LICENSE.txt",
+    "static/js/main.2e235a43.chunk.js.LICENSE.txt": "/react-global-grid/static/js/main.2e235a43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc17ddf4.js",
+    "static/js/2.62240578.chunk.js",
+    "static/css/main.37b88c31.chunk.css",
+    "static/js/main.2e235a43.chunk.js"
+  ]
+}
